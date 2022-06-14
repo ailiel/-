@@ -1,1 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+  </head>
+  <body>
+    <hr>
+    <div class="container">
+        <div class="row">
+          <div class="col">
+            COFFEEBRE
+          </div>
+          <div class="col-6">
+            <div class="container">
+                <div class="row row-cols-5">
+                  <div class="col">원두</div>
+                  <div class="col">생두</div>
+                  <div class="col">도매</div>
+                  <div class="col">도서/상품</div>
+                  <div class="col">아카이브</div>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            icons
+    
+          </div>
+        </div>
+    </div>
+    <hr>
 
+    <section class="row mt-5">
+        <section class="col-5 offset-1 text-center">
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <img src="커피.jpg" width="500"heigh="600" alt="coffee">
+          </div>
+          <div class="col-sm">
+            <p class="fw-bold">[싱글오리진]</p>
+            <p>파푸아뉴기니</p>
+            <p>모리타[강배진]</p>
+
+            <select class="form-select" aria-label="Default select example">
+                <option selected>-필수 옵션을 선택해 주세요-</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+    
+              <select class="form-select" aria-label="Default select example">
+                <option selected>-필수 옵션을 선택해 주세요-</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+          </div>
+        </div>
+ </section>
+      
+
+        
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
